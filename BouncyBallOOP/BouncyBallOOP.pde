@@ -11,4 +11,8 @@ void draw() {
   background(0);
   b.display();         //call b's display() method
   b2.display();
+  b.move();
+  b2.move();
+  b.restrain();
+  b2.restrain();
 }
