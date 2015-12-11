@@ -7,6 +7,7 @@ class Ball {
   //this is a constructor. you can have more than one constructor for a given class
   Ball() {
     vel = PVector.random2D();
+    vel.mult(25);
     diam = 200;
     loc = new PVector(random(diam, width-diam), random(diam, height-diam));
     c = color(random(255), random(50), random(100, 255));
