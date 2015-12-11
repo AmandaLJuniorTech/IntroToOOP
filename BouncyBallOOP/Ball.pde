@@ -11,6 +11,7 @@ class Ball {
     c = color(random(255), random(50), random(100, 255));
   }
 
+
 //after declaring fields and setting up constructors, you can define your methods
   void display() {
     fill(c);
